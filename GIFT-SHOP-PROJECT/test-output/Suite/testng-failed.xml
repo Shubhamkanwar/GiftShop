@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="BTES_GiftShop.TestCases.CartPageTestCases">
+        <methods>
+          <include name="CancellationLinkVisible"/>
+          <include name="FAQLinkVisible"/>
+          <include name="HiiAdminLinkVisible"/>
+          <include name="AboutUsLinkVisible"/>
+          <include name="GiftShopLogoVisible"/>
+          <include name="LogoutLinkVisible"/>
+          <include name="TermsandConditionLinkVisible"/>
+          <include name="ContactUsLinkVisible"/>
+          <include name="SupportLinkVisible"/>
+          <include name="SetUp"/>
+          <include name="PaymentLinkVisible"/>
+          <include name="ShippingLinkVisible"/>
+          <include name="ContactLinkVisible"/>
+          <include name="ContinueShoppingLinkVisible"/>
+          <include name="HomeLinkVisible"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- BTES_GiftShop.TestCases.CartPageTestCases -->
+      <class name="BTES_GiftShop.TestCases.LoginPageTestCases">
+        <methods>
+          <include name="TearDown"/>
+          <include name="EnterUsername"/>
+          <include name="Setup"/>
+          <include name="SignupBtnDisplayed"/>
+          <include name="EnterPassword"/>
+          <include name="EnterLoginBtn"/>
+          <include name="BackBtnDisplayed"/>
+        </methods>
+      </class> <!-- BTES_GiftShop.TestCases.LoginPageTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
